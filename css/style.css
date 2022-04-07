@@ -1,0 +1,90 @@
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.innerBox {
+    width: 33%;
+    height: 33%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    background-color: rgb(3, 84, 85);
+}
+
+.icons {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.icons2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    /* opacity: 0; */
+    transition: all 0.2s ease;
+}
+
+.buttons:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease;
+}
+
+.buttons:hover .icons {
+    opacity: 1;
+}
+
+.btnActive {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    background-color: rgb(231, 152, 5);
+}
+
+.btnNull {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    background-color: rgb(231, 5, 5);
+}
+
+.bx-x {
+    color: #fff;
+    font-size: 60px;
+    /* opacity: 0; */
+}
